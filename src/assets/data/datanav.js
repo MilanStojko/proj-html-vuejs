@@ -6,6 +6,7 @@ const navmenu = [
     events: false,
     new: false,
     apply: false,
+    active: true,
   },
   {
     src: "https://avada.theme-fusion.com/university/about-us/",

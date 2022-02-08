@@ -8,7 +8,7 @@
         <div class="right">
           <ul>
             <li v-for="(info, index) in voci" :key="index">
-              <a :href="info.src"
+              <a :href="info.src" :class="{ active: info.active }"
                 >{{ info.name }} <span v-if="info.new"> new </span>
                 <span v-if="info.apply"> apply</span></a
               >
@@ -33,6 +33,12 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/style/var.scss";
+.active {
+  color: $orangeText;
+}
+.fluid {
+  background-color: #fff;
+}
 ul {
   list-style: none;
   display: flex;
@@ -51,7 +57,10 @@ ul {
         font-size: 0.6rem;
         border-radius: 7px;
         position: relative;
-        top:-2px;
+        top: -3px;
+      }
+      &:hover {
+        color: $orangeText;
       }
     }
   }
