@@ -31,7 +31,7 @@ export default {
   z-index: -1;
 }
 .jumbotext {
-  padding: 200px 0;
+  padding: 250px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,6 +54,7 @@ export default {
       font-size: 0.9rem;
       letter-spacing: 2px;
       font-weight: 600;
+      transition: 1s;
     }
     .orange {
       background-color: $oragneBg;

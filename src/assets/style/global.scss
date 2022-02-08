@@ -14,12 +14,32 @@
 body {
   font-family: "Roboto Slab", serif;
 }
-.logo {
-  width: 100%;
-  height: 100%;
-}
+//CONTAINERS & SECTIONS MANAGER
 .spaced {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.cleaner {
+  background-color: $whiteBg;
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.linesection {
+  border: 1px solid #ef9a3d;
+  width: 200px;
+}
+//LOGO MANAGER
+.logo-container {
+  width: 100px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
 }
