@@ -1,0 +1,60 @@
+const navmenu = [
+  {
+    src: "#",
+    name: "Home",
+    courses: false,
+    events: false,
+    new: false,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/about-us/",
+    name: "About",
+    courses: false,
+    events: false,
+    new: false,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/courses/",
+    name: "Courses",
+    courses: true,
+    events: false,
+    new: true,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/events/",
+    name: "Events",
+    courses: false,
+    events: true,
+    new: false,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/facilities/",
+    name: "Facilities",
+    courses: false,
+    events: false,
+    new: false,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/latest-news/",
+    name: "News",
+    courses: false,
+    events: false,
+    new: false,
+    apply: false,
+  },
+  {
+    src: "https://avada.theme-fusion.com/university/admissions/",
+    name: "Admissions",
+    courses: false,
+    events: false,
+    new: false,
+    apply: true,
+  },
+];
+
+export default navmenu;
