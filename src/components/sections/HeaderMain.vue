@@ -43,13 +43,14 @@ ul {
   list-style: none;
   display: flex;
   li {
-    padding: 50px 20px;
+    padding: 40px 20px;
     a {
       text-decoration: none;
       text-transform: uppercase;
       font-weight: bold;
       color: #000;
       font-size: 1rem;
+      transition: 0.5s;
       span {
         color: #fff;
         background-color: #00bcd4;

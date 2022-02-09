@@ -42,6 +42,7 @@ export default {
   }
   p {
     font-size: 1.4rem;
+    color: #fff;
   }
   .buttons {
     display: flex;

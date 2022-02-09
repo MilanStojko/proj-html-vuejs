@@ -14,6 +14,11 @@
 body {
   font-family: "Roboto Slab", serif;
 }
+p {
+  color: $textColor;
+  line-height: 30px;
+  padding: 10px 0;
+}
 //CONTAINERS & SECTIONS MANAGER
 .spaced {
   display: flex;
@@ -32,6 +37,9 @@ body {
 .linesection {
   border: 1px solid #ef9a3d;
   width: 200px;
+}
+.sticky {
+  position: sticky;
 }
 //LOGO MANAGER
 .logo-container {

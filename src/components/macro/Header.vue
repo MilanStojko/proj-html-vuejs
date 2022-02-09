@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderTop />
-    <HeaderMain :voci="menunav"/>
+    <HeaderMain :voci="menunav" class="sticky" />
   </div>
 </template>
 
@@ -20,5 +20,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../../assets/style/var.scss";
 </style>
