@@ -1,5 +1,5 @@
 <template>
-  <div class="fluid-gray">
+  <div class="fluid-gray m200">
     <svg
       class="fusion-big-triangle-candy"
       xmlns="http://www.w3.org/2000/svg"
@@ -43,14 +43,11 @@
           </p>
         </div>
         <div class="col-6">
-          <h3>OUR VALUES</h3>
-          <div v-for="(value, index) in values" :key="index">
-            <div @click="inActive = !inActive">
-              <i v-if="inActive" :class="value.basic"></i>
-              <i v-else :class="value.active"></i>
-            </div>
-            <h6></h6>
-            <span></span>
+          <h3 class="tvalues">OUR VALUES</h3>
+          <div v-for="(elem, index) in values" :key="index" class="values">
+            <i :class="elem.basic"></i>
+            <h6 @click="inActive = !inActive">{{ elem.name }}</h6>
+            <p v-if="!inActive">{{ elem.text }}</p>
           </div>
         </div>
       </div>
@@ -94,5 +91,32 @@ export default {
       padding-right: 3px;
     }
   }
+  .values {
+    display: flex;
+    min-height: 60px;
+    height: fit-content;
+    align-items: center;
+    align-content: center;
+    background-color: $whiteBg;
+    margin-bottom: 10px;
+    width: 100%;
+    h6,
+    svg {
+      font-weight: 600;
+      font-size: 1.4rem;
+      padding: 0 10px;
+      color: $orangeText;
+    }
+    svg {
+      transform: translateY(-4px);
+    }
+    p {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.m200 {
+  padding-bottom: 150px;
 }
 </style>

@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-7">
-          <h3 class="sectiontitle" >WHY CHOOSE AVADA UNIVERSITY?</h3>
-          <p>
+          <h3 class="sectiontitle">WHY CHOOSE AVADA UNIVERSITY?</h3>
+          <p class="m200">
             We offer a range of training packages in a range of subject areas
             and can offer blended learning opportunities to best meet your
             needs. If sitting in a room with a trainer and having the

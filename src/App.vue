@@ -1,5 +1,5 @@
 <template>
-  <div id="app"><Header /> <Main /></div>
+  <div id="app"><Header class="sticky" /> <Main /></div>
 </template>
 
 <script>
