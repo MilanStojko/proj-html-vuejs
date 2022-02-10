@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderTop />
-    <HeaderMain :voci="menunav" class="sticky" />
+    <HeaderMain :voci="menunav" />
   </div>
 </template>
 
@@ -22,4 +22,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/style/var.scss";
+.sticky-more {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 </style>
