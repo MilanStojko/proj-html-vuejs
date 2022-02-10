@@ -5,7 +5,7 @@
     <MainMotivation />
     <MainValues />
     <MainCarousel />
-    <MainSectionCommon :titlen="newsh" :paragn="newsp" />
+    <MainSectionCommon :titlen="newsh" :paragn="newsp" class="cleanergray" />
     <MainNews />
   </main>
 </template>

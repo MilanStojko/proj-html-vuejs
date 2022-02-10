@@ -1,5 +1,5 @@
 <template>
-  <div class="cleaner">
+  <div class="cleaner" >
     <div class="container">
       <div class="centered">
         <div class="logo-container">
@@ -21,6 +21,7 @@ export default {
     paragi: String,
     titlen: String,
     paragn: String,
+    classe: String,
   },
 };
 </script>

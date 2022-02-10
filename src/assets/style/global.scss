@@ -20,6 +20,9 @@ p {
   padding: 10px 0;
 }
 //CONTAINERS & SECTIONS MANAGER
+.pbot {
+  padding-bottom: 100px;
+}
 .spaced {
   display: flex;
   justify-content: space-between;
@@ -27,6 +30,9 @@ p {
 }
 .cleaner {
   background-color: $whiteBg;
+}
+.cleanergray {
+  background-color: #f7f5f4;
 }
 .centered {
   display: flex;
